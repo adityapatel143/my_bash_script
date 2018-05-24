@@ -8,7 +8,11 @@
 
 #Storing path to commands
 
-FILE_NAME=/home/aditya/my_bash_script/condition/error_4.log
+read -p "enter the complete file path : " file_path
+
+FILE_NAME=$file_path
+
+#FILE_NAME=/home/aditya/my_bash_script/condition/error_4.log
 
 #check if file exists
 
