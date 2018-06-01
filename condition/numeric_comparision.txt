@@ -1,0 +1,15 @@
+The test command can perform various numeric comparison using the following operators:
+
+Operator	Syntax			Description
+
+eq		INT1 -eq INT2		INTEGER1 is equal to INTEGER2
+
+ge		INT1 -ge INT2		INTEGER1 is greater than or equal to INTEGER2
+
+gt		INT1 -gt INT2		INTEGER1 is greater than INTEGER2
+	
+le		INT1 -le INT2		INTEGER1 is less than or equal to INTEGER2
+
+lt		INT1 -lt INT2		INTEGER1 is less than INTEGER2
+
+ne		INT1 -ne INT2		INTEGER1 is not equal to INTEGER2
