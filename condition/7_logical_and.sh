@@ -14,3 +14,10 @@
 #=====================================================================
 
 ls -l ~/.bashrc && echo ".bashrc file found"
+
+# "$?" tells us if the last command excuited successfully if yes it will return 0 else it will return non zero value.
+
+if [ $? -ne 0 ]	
+then
+	echo "file not found"
+fi
