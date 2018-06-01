@@ -1,0 +1,14 @@
+		
+		 Parameters Set by the Shell
+		==============================
+
+
+• $0 holds the name of script itself.
+• All command line parameters or arguments can be accessed via $1, $2, $3,..., $9.
+• $* holds all command line parameters or arguments.
+• $# holds the number of positional parameters.
+• $- holds flags supplied to the shell.
+• $? holds the return value set by the previously executed command.
+• $$ holds the process number of the shell (current shell).
+• $! hold the process number of the last background command.
+• $@ holds all command line parameters or arguments.
